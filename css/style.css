@@ -1,0 +1,836 @@
+
+
+@font-face{
+	   font-family: 'Lato-Black'; 
+	   src: url('fonts/Lato-Black/Lato-Black.eot');
+	   src: url('fonts/Lato-Black/Lato-Black.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Black/Lato-Black.woff2') format('woff2'),
+		   url('fonts/Lato-Black/Lato-Black.woff') format('woff'),
+		   url('fonts/Lato-Black/Lato-Black.ttf') format('truetype'),
+		   url('fonts/Lato-Black/Lato-Black.svg#Lato-Black') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Regular'; 
+	   src: url('fonts/Lato-Regular/Lato-Regular.eot');
+	   src: url('fonts/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Regular/Lato-Regular.woff2') format('woff2'),
+		   url('fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
+		   url('fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+		   url('fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Italic'; 
+	   src: url('fonts/Lato-Italic/Lato-Italic.eot');
+	   src: url('fonts/Lato-Italic/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Italic/Lato-Italic.woff2') format('woff2'),
+		   url('fonts/Lato-Italic/Lato-Italic.woff') format('woff'),
+		   url('fonts/Lato-Italic/Lato-Italic.ttf') format('truetype'),
+		   url('fonts/Lato-Italic/Lato-Italic.svg#Lato-Italic') format('svg');
+}
+
+
+@font-face{
+	   font-family: 'Lato-Medium'; 
+	   src: url('fonts/Lato-Medium/Lato-Medium.eot');
+	   src: url('fonts/Lato-Medium/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Medium/Lato-Medium.woff2') format('woff2'),
+		   url('fonts/Lato-Medium/Lato-Medium.woff') format('woff'),
+		   url('fonts/Lato-Medium/Lato-Medium.ttf') format('truetype'),
+		   url('fonts/Lato-Medium/Lato-Medium.svg#Lato-Medium') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Heavy'; 
+	   src: url('fonts/Lato-Heavy/Lato-Heavy.eot');
+	   src: url('fonts/Lato-Heavy/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Heavy/Lato-Heavy.woff2') format('woff2'),
+		   url('fonts/Lato-Heavy/Lato-Heavy.woff') format('woff'),
+		   url('fonts/Lato-Heavy/Lato-Heavy.ttf') format('truetype'),
+		   url('fonts/Lato-Heavy/Lato-Heavy.svg#Lato-Heavy') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Bold'; 
+	   src: url('fonts/Lato-Bold/Lato-Bold.eot');
+	   src: url('fonts/Lato-Bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Bold/Lato-Bold.woff2') format('woff2'),
+		   url('fonts/Lato-Bold/Lato-Bold.woff') format('woff'),
+		   url('fonts/Lato-Bold/Lato-Bold.ttf') format('truetype'),
+		   url('fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Bolditalic'; 
+	   src: url('fonts/Lato-Bolditalic/Lato-Bolditalic.eot');
+	   src: url('fonts/Lato-Bolditalic/Lato-Bolditalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Bolditalic/Lato-Bolditalic.woff2') format('woff2'),
+		   url('fonts/Lato-Bolditalic/Lato-Bolditalic.woff') format('woff'),
+		   url('fonts/Lato-Bolditalic/Lato-Bolditalic.ttf') format('truetype'),
+		   url('fonts/Lato-Bolditalic/Lato-Bolditalic.svg#Lato-Bolditalic') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Heavyitalic'; 
+	   src: url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.eot');
+	   src: url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.woff2') format('woff2'),
+		   url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.woff') format('woff'),
+		   url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.ttf') format('truetype'),
+		   url('fonts/Lato-Heavyitalic/Lato-Heavyitalic.svg#Lato-Heavyitalic') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Hairline'; 
+	   src: url('fonts/Lato-Hairline/Lato-Hairline.eot');
+	   src: url('fonts/Lato-Hairline/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Hairline/Lato-Hairline.woff2') format('woff2'),
+		   url('fonts/Lato-Hairline/Lato-Hairline.woff') format('woff'),
+		   url('fonts/Lato-Hairline/Lato-Hairline.ttf') format('truetype'),
+		   url('fonts/Lato-Hairline/Lato-Hairline.svg#Lato-Hairline') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Hairlineitalic'; 
+	   src: url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.eot');
+	   src: url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.woff2') format('woff2'),
+		   url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.woff') format('woff'),
+		   url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.ttf') format('truetype'),
+		   url('fonts/Lato-Hairlineitalic/Lato-Hairlineitalic.svg#Lato-Hairlineitalic') format('svg');
+}
+
+
+@font-face{
+	   font-family: 'Lato-Light'; 
+	   src: url('fonts/Lato-Light/Lato-Light.eot');
+	   src: url('fonts/Lato-Light/Lato-Light.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Light/Lato-Light.woff2') format('woff2'),
+		   url('fonts/Lato-Light/Lato-Light.woff') format('woff'),
+		   url('fonts/Lato-Light/Lato-Light.ttf') format('truetype'),
+		   url('fonts/Lato-Light/Lato-Light.svg#Lato-Light') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Lightitalic'; 
+	   src: url('fonts/Lato-Lightitalic/Lato-Lightitalic.eot');
+	   src: url('fonts/Lato-Lightitalic/Lato-Lightitalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Lightitalic/Lato-Lightitalic.woff2') format('woff2'),
+		   url('fonts/Lato-Lightitalic/Lato-Lightitalic.woff') format('woff'),
+		   url('fonts/Lato-Lightitalic/Lato-Lightitalic.ttf') format('truetype'),
+		   url('fonts/Lato-Lightitalic/Lato-Lightitalic.svg#Lato-Lightitalic') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Mediumitalic'; 
+	   src: url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.eot');
+	   src: url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.woff2') format('woff2'),
+		   url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.woff') format('woff'),
+		   url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.ttf') format('truetype'),
+		   url('fonts/Lato-Mediumitalic/Lato-Mediumitalic.svg#Lato-Mediumitalic') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Seimbold'; 
+	   src: url('fonts/Lato-Seimbold/Lato-Seimbold.eot');
+	   src: url('fonts/Lato-Seimbold/Lato-Seimbold.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Seimbold/Lato-Seimbold.woff2') format('woff2'),
+		   url('fonts/Lato-Seimbold/Lato-Seimbold.woff') format('woff'),
+		   url('fonts/Lato-Seimbold/Lato-Seimbold.ttf') format('truetype'),
+		   url('fonts/Lato-Seimbold/Lato-Seimbold.svg#Lato-Seimbold') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Seimbolditalic'; 
+	   src: url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.eot');
+	   src: url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.woff2') format('woff2'),
+		   url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.woff') format('woff'),
+		   url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.ttf') format('truetype'),
+		   url('fonts/Lato-Seimbolditalic/Lato-Seimbolditalic.svg#Lato-Seimbolditalic') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Thin'; 
+	   src: url('fonts/Lato-Thin/Lato-Thin.eot');
+	   src: url('fonts/Lato-Thin/Lato-Thin.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Thin/Lato-Thin.woff2') format('woff2'),
+		   url('fonts/Lato-Thin/Lato-Thin.woff') format('woff'),
+		   url('fonts/Lato-Thin/Lato-Thin.ttf') format('truetype'),
+		   url('fonts/Lato-Thin/Lato-Thin.svg#Lato-Thin') format('svg');
+}
+
+@font-face{
+	   font-family: 'Lato-Thinitalic'; 
+	   src: url('fonts/Lato-Thinitalic/Lato-Thinitalic.eot');
+	   src: url('fonts/Lato-Thinitalic/Lato-Thinitalic.eot?#iefix') format('embedded-opentype'),
+		   url('fonts/Lato-Thinitalic/Lato-Thinitalic.woff2') format('woff2'),
+		   url('fonts/Lato-Thinitalic/Lato-Thinitalic.woff') format('woff'),
+		   url('fonts/Lato-Thinitalic/Lato-Thinitalic.ttf') format('truetype'),
+		   url('fonts/Lato-Thinitalic/Lato-Thinitalic.svg#Lato-Thinitalic') format('svg');
+}
+*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Lato Medium';
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav{
+	    overflow: hidden;
+}
+
+nav ul li ul{
+	width: 150px;
+	overflow: hidden;
+	position: absolute;
+	background: rgb(62, 62, 62);
+	top: 116px;
+	display: none;
+}
+
+nav ul li{
+	    padding: 5px 0;
+}
+
+nav ul li:focus ul,
+nav ul li:hover ul,
+nav ul li ul:hover{
+	display: block;
+}
+
+nav ul li ul li{
+	float: left;
+	padding: 14px 0px;
+}
+
+nav ul li a{
+	font-family: 'Lato Heavy';
+	padding: 5px 15px !important;
+}
+
+nav ul li a:hover{
+	color: rgb(159, 199, 255);
+}
+
+header{
+	
+}
+
+.panel-menu{
+	width: 50%;
+	float: left;
+	color: #333;
+	font-family: 'Lato Medium';
+}
+
+.panel-menu a{
+	font-family: 'Lato Medium';
+    color: #333;
+}
+
+.header-line{
+	background: rgb(59, 109, 181);
+	padding: 3px 0;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.header-line {
+	padding: 4px 9px;
+	background: #fff;
+	font-family: 'Lato Heavy';
+	font-size: 15px;
+}
+
+.header-line a:nth-child(1){
+	border-radius: 10px 0 0 10px;
+}
+
+.header-line a:nth-child(2){
+	border-radius: 0 10px 10px 0;
+	margin-left: -5px;
+}
+
+.logo{
+	font-size: 45px;
+    float: left;
+    letter-spacing: -6px;
+    text-shadow: rgba(0, 0, 0, 0.42) 3px 2px 0px;
+    position: relative;
+    top: -7px;
+    font-family: cursive;
+}
+
+.logo:nth-child(1){
+	color: rgb(242, 147, 0);
+	padding: 0 0 0 5px;
+}
+
+.logo:nth-child(2){
+	color: rgb(116, 51, 138);
+}
+
+.logo:nth-child(3){
+	color: rgb(18, 75, 156);
+}
+
+.header-menu{
+	padding: 9px 0;
+    background: rgb(59, 109, 181);
+    border-bottom: 5px solid #FF0700;
+}
+
+.content{
+	min-height: 56.2%;
+    padding: 15px;
+    width: 70%;
+    float: left;
+    font-family: 'Lato Medium';
+    overflow: hidden;
+}
+
+footer{
+
+}
+
+.footer-content{
+	padding: 20px 0;
+    background: #3E3E3E;
+    border-top: 5px solid #05ACEB;
+}
+
+.footer-line{
+	background: rgb(59, 109, 181);
+	padding-top: 13px;
+	height: 58px;
+	overflow: hidden;
+}
+
+.footer-subline{
+	width: 33%;
+	text-align: center;
+}
+
+.footer-subline:nth-child(1){
+	padding: 10px 0 0 0;
+	float: left;
+}
+
+.footer-subline:nth-child(2){
+	overflow: hidden;
+	float: left;
+}
+
+.footer-subline:nth-child(3){
+	padding: 10px 0 0 0;
+	float: right;
+}
+
+.footer-down {
+	width: 33%;
+}
+
+.footer-down:nth-child(1) {
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+.footer-down:nth-child(2) {
+	margin: 0 0 0 33%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.footer-down:nth-child(3) {
+	float: right;
+	text-align: right;
+	padding: 10px 0 0 0;
+	float: right;
+	position: relative;
+	top: -42px;
+}
+
+
+#up{
+	text-align: center;
+}
+
+.up{
+	padding: 15px;
+	border-radius: 100%;
+	border: none;
+	background-color: rgb(5, 172, 235);
+}
+
+.up:after{
+	content: "\f077 ";
+	font-family: 'FontAwesome';
+}
+
+#slider{
+	width: 100%;
+	height: 512px;
+	border: 1px solid;
+	display:none;
+}
+
+aside{
+	width: 28%;
+    padding: 10px 0;
+    float: right;
+    margin-top: 4px;
+}
+
+/* ------------- Capcha -------------- */
+
+#capcha{
+	/*letter-spacing: 10px;
+    font-family: 'Lato-Black';
+    border-radius: 7px 0 0 7px;
+    padding: 17px 0 21px 15px !important;
+    width: 200px !important;*/
+
+    width: 150px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Lato Heavy';
+        letter-spacing: 3px;
+}
+
+#check_capcha{
+	/*margin-left: -15px;
+	    width: 200px !important;*/
+}
+
+#check {
+	position: relative;
+    top: -36px;
+    left: 397px;
+}
+
+
+
+.input-group .input-group-addon:last-child{
+	width: auto !important;
+}
+
+.cap-false,
+.cap-true{
+	/*background: rgb(159, 199, 255);*/
+}
+
+.cap-true:before {
+	content: "\f00c ";
+	font-family: 'FontAwesome';
+	/*font-size: 50px;*/
+	color: rgb(79, 255, 79);
+	/*position: relative;
+	left: -65px;
+	top: 10px;*/
+}
+
+.cap-false:before {
+	content: "\f00d";
+	font-family: 'FontAwesome';
+	/*font-size: 50px;*/
+	color: rgb(255, 79, 79);
+	/*position: relative;
+	left: -65px;
+	top: 10px;*/
+}
+
+#indication{
+	width: 39px !important;
+}
+
+.check-capcha {
+	  /*width: 200px !important;*/
+}
+
+.fa-pulse{
+	display: none;
+}
+
+#capcha{
+	/*letter-spacing: 10px;
+    font-family: 'Lato-Black';
+    border-radius: 7px 0 0 7px;
+    padding: 17px 0 21px 15px !important;
+    width: 200px !important;*/
+}
+
+#check_capcha{
+	/*margin-left: -15px;
+	    width: 200px !important;*/
+width: auto !important;
+	float: none !important;
+	    height: 37px !important;
+
+}
+
+textarea {
+    height: 200px !important;
+    margin-bottom: 15px !important;
+}
+
+.form-inline {
+	margin-bottom: 15px;
+}
+
+form {
+	width: 77%;
+	margin: 0 auto;
+}
+
+/*input{
+	    padding: 7px 20px 7px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: #000 1px solid;
+    list-style: none;
+    font-family: 'Lato-Black';
+    color: #000;
+    border-radius: 5px;
+    margin: 0 9px 15px 0;
+}*/
+
+
+/*input:disabled {
+	background: #ccc;
+}
+
+#capcha,
+#check_capcha {
+	padding: 20px 15px;
+	font-size: 25px;
+	width: 250px;
+}*/
+
+.reset{
+	display: none;
+
+}
+
+.reset:after{
+	content: "\f021";
+	font-family: 'FontAwesome';
+}
+
+select{
+	padding: 7px 20px 7px 20px; 
+	border-radius:7px; 
+	font: bold 12px sans-serif; 
+	background: #fff; 
+	list-style: none; 
+	font-family: "Courier New", Courier, monospace; 
+	color:#000; 
+	border: #000 1px solid;
+	margin-bottom: 15px;
+}  
+
+a:link, 
+a:visited{
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a:hover{
+	color:#fff; 
+	text-shadow:#ccc 0px 0px 5px; 
+	font-weight:bold;
+	text-decoration: none;
+}	  
+
+.user-stat{
+	width: 300px;
+	float: right;
+	text-align: right;	
+}
+
+#exit{
+	background:#e5e5e5;
+	border:1px solid #ccc;
+	border-radius: 0px 6px 6px 0px;	
+}
+
+.login{
+	width: 49.4%;
+}
+
+.login:nth-child(1){
+	float:left;
+}
+
+.login:nth-child(2){
+	float: right;
+}
+
+
+.valid-true {
+	     box-shadow: 0px 0px 8px green !important;
+    border-color: green !important;
+}
+
+.valid-false {
+	 box-shadow: 0px 0px 8px red !important;
+    border-color: red !important;
+}
+
+
+.bg-primary,
+.bg-info{
+	padding: 20px 11.5%;
+    font-size: 17px;
+    font-family: 'Lato Medium';
+}
+
+.control-label{
+	text-align: left !important;
+}
+
+.content a{
+	font-size: 14px;
+    font-family: 'Lato Regular';
+    color: #f5f5f5;
+}
+
+.req{
+	color: red;
+}
+
+.panel-content {
+	    padding: 30px 15px 20px 15px;
+}
+
+aside a{
+	    font-size: 17px !important;
+}
+
+section header {
+	background-color: #CCE7F4;
+    padding: 10px 12px;
+    border-radius: 4px 4px 0 0;
+}
+
+section header .name {
+	font-family: 'Lato Heavy';
+    font-size: 20px;
+}
+
+section .time {
+	     font-size: 16px;
+    font-family: 'Lato Medium';
+    float: right;
+    top: 4px;
+    position: relative;
+}
+
+.jumbotron {
+	padding: 9px 3px !important;
+    /* padding-bottom: 30px !important; */
+    margin-bottom: 0px !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    height: 89px;
+}
+
+section footer {
+	background-color: #3071AA;
+    padding: 2px 15px;
+    border-radius: 0 0 4px 4px;
+    color: #fff;
+    overflow: hidden;
+}
+
+section {
+	    margin-bottom: 24px;
+}
+
+.read-more {
+	      border: none;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 45%;
+}
+
+.read-more:before {
+	content: "\f150";
+	font-family: 'FontAwesome';
+}
+
+.table>tbody>tr>th,
+.table>tbody>tr>td {
+	    vertical-align: middle !important;
+	    text-align: center !important;
+	    min-width: 65px;
+	        letter-spacing: 1.2px;
+}
+
+
+.td_wind{
+	    overflow: hidden;
+    width: 70px;
+}
+
+.barp {
+    top: 32px;
+    /*top: 25px;*/
+    font-size: 20px;
+    background-position: 0 4px;
+}
+.barp .unit {
+    top: 20px;
+}
+.wicon {
+    background: url(../image/weather.png) no-repeat;
+    width: 25px;
+    height: 25px;
+        position: relative;
+    top: 12px;
+     /* display: block;
+    margin: 0px 0 0 8px;*/
+   }
+.wind {
+    /*top: 65px;*/
+    /*background-position: 0 -36px;*/
+}
+.wind  {
+    padding-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+.wind0 {
+    background-position:100% -120px;
+}
+.wind1 {
+    background-position:100% -160px;
+}
+.wind5 {
+    background-position:100% -200px;
+}
+.wind3 {
+    background-position:100% -240px;
+}
+.wind7 {
+    background-position:100% -280px;
+}
+.wind2 {
+    background-position:100% -320px;
+}
+.wind8 {
+    background-position:100% -360px;
+}
+.wind6 {
+    background-position:100% -400px;
+}
+.wind4 {
+    background-position:100% -440px;
+}
+.wind dt {
+    margin: 0 0 1px;
+    /*line-height: 12px;*/
+
+}
+.wind dd {
+    font-size: 16px;
+    /*line-height: 16px;*/
+}
+.wind .unit {
+    top: 15px;
+    width: 42px;
+}
+.hum {
+    top: 105px;
+    font-size: 20px;
+    background-position: 0 -76px;
+}
+
+.wind_position {
+	   /* margin: -26px 0 0 32px;
+    display: block;*/
+    position: relative;
+    top: -13px;
+    left: 23px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+	.wrapper{
+		width: 768px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.content{
+		min-height: 200px;
+		padding: 15px;
+		border-left: 1px solid;
+		border-right: 1px solid;
+	}
+
+	.cap-false,
+	.cap-true{
+	background: rgb(159, 199, 255);
+	}
+
+	.cap-true + span:before {
+	content: "\f00c ";
+	font-family: 'FontAwesome';
+	font-size: 50px;
+	color: rgb(79, 255, 79);
+	position: relative;
+	left: -65px;
+	top: 10px;
+	}
+
+	.cap-false + span:before {
+	content: "\f00d";
+	font-family: 'FontAwesome';
+	font-size: 50px;
+	color: rgb(255, 79, 79);
+	position: relative;
+	left: -65px;
+	top: 10px;
+	}
+	#capcha{
+	letter-spacing: 10px;
+	font-family: 'Lato-Black';
+	border-radius: 7px 0 0 7px;
+	padding: 17px 0 21px 15px !important;
+	}
+
+	#check_capcha{
+	margin-left: -15px;
+	}
+	textarea {
+	padding: 7px 20px 7px 20px;
+	background: #fff;
+	width: 75%;
+	height: 200px;
+	list-style: none;
+	border: #000 1px solid;
+	font-family: 'Lato-Black';
+	color: #000;
+	margin-bottom: 15px;
+	border-radius: 7px;
+	font-size: 20px;
+	}
+
+}
